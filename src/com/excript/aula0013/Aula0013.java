@@ -16,11 +16,11 @@ public class Aula0013{
 		   exp = new Scanner(System.in).nextInt();
 		   if(exp!=5){
 			   if(exp==0||exp>5){
-				   System.out.println("Operação inválida, tente novamento!");
+				   System.out.println("Operacao invalida, tente novamento!");
 			  }else{
-				  System.out.println("Digite primeiro número:");
+				  System.out.println("Digite primeiro numero:");
 				  int num1 = new Scanner(System.in).nextInt();
-				  System.out.println("Digite o segundo número:");
+				  System.out.println("Digite o segundo numero:");
 				  int num2 = new Scanner(System.in).nextInt();
 			  
 			 /* double result = 0;
@@ -39,7 +39,7 @@ public class Aula0013{
 					  }
 				  }
 			  }
-			   System.out.println("Resultado da operação:"+result);*/
+			   System.out.println("Resultado da operacao:"+result);*/
 				  
 				  
 				  /*double result =0;
@@ -52,13 +52,13 @@ public class Aula0013{
 				  break;
 				  case 4:result = num1/num2;
 				  }
-				 System.out.println("O resultado da operação:"+result);*/
+				 System.out.println("O resultado da operacao:"+result);*/
 				  
 				  
 	 double result = (exp==1)?(num1+num2):
 					 (exp==2)?(num1-num2):
 					 (exp==3)?(num1*num2):(num1/num2);
-		   System.out.println("O resultado da operação"+result);
+		   System.out.println("O resultado da operacao"+result);
 			  }
 		   }
 		}while(exp!=5);
