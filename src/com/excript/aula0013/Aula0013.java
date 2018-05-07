@@ -23,7 +23,8 @@ public class Aula0013{
 				  System.out.println("Digite o segundo numero:");
 				  int num2 = new Scanner(System.in).nextInt();
 			  
-			 /* double result = 0;
+			 /*Calculadora com if else
+			  *  double result = 0;
 			  if(exp==1){
 				  result = num1+num2;
 			  }else{
@@ -42,7 +43,8 @@ public class Aula0013{
 			   System.out.println("Resultado da operacao:"+result);*/
 				  
 				  
-				  /*double result =0;
+				  /*Calculadora com swicth case
+				   * double result =0;
 				  switch (exp){
 				  case 1:result = num1+num2;
 				  break;
