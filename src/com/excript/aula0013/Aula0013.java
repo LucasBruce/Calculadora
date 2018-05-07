@@ -24,7 +24,6 @@ public class Aula0013{
 				  int num2 = new Scanner(System.in).nextInt();
 			  
 			 /*Calculadora com if else
-			  * 
 			  *  double result = 0;
 			  if(exp==1){
 				  result = num1+num2;
@@ -45,7 +44,6 @@ public class Aula0013{
 				  
 				  
 				  /*Calculadora com swicth case
-				   * 
 				   * double result =0;
 				  switch (exp){
 				  case 1:result = num1+num2;
